@@ -1,29 +1,31 @@
 <html>
-<head><title>East Africa Repairs</title>
+<head>
+
+
+
+
+<title>Citty Appliances Repair</title>
  
 
-
-
-
-</head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
+.mySlides {display:none;
 
-
-
-
-.sticky {
-  position: fixed;
-  top: 0;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-position:center;
+ 
+  height: 100vh;
   width: 100%;
+  object-fit: contain;
+   
 }
+	
 
-.sticky + .content {
-  padding-top: 60px;
-}
-body{
-background-color;
-}
+
+
 
 h1{
 background-color:red;
@@ -43,10 +45,10 @@ float:bottom;
 }
 
  img {
-    border-radius: 300px;
+    border-radius: 10px;
 	border: 1px solid #ddd;
     align:left-side;
-    padding: 5px;
+    padding: 0px;
     width: 60px;
 
 }
@@ -102,10 +104,11 @@ h3{
 .topnav a{
  float :left;
  color:blue;
- text-align:center; ;
+ text-align:center; 
  padding:15px 16px;
  text-decoration:none;
  font-size:35px;
+ 
  
  }
  .topnav a:hover{
@@ -143,16 +146,6 @@ h3{
   padding: 16px;
 
 
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: yellow;
-  padding: 50px;
-  font-size: 20px;
-}
-
  
 .xaxa{
 
@@ -164,7 +157,26 @@ background-color:red;
 text-align:right;
 }
 
+h7{
+background-color:red;
+color:magenta;
+border-radius:0px;
+font-size:20px;
+}
+
+
+
+
+
+
+
+
+
 </style>
+
+
+</head>
+
 
 <body>
 
@@ -173,11 +185,10 @@ text-align:right;
 <div class="topnav">
 <a href="WASHER.html">  Home </a>
 <a href="">  About Us </a>
- <a href="">  Site </a>
  <a href="">  Spare Parts </a>
 <a href="">  call 0703351550  </a>
 
-<a href="busmash.html">  appliance  </a>
+<a href="">  appliance  </a>
 
 </div>
 
@@ -193,17 +204,59 @@ text-align:right;
  
 
  
+ 
+ 
+ 
+ 
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 <div class="column">
 
-    <img src="washer.jpg" alt="Car vaccum clean" style="width:100%" style="height:100%"   ><a href="wosho.html"><p> washing machine</p></a>
+    <img src="washer.jpg" alt="Car vaccum clean" style="width:45%" style="height:40%"   ><a href="wosho.html"><p> washing machine</p></a>
     
 
-  <img src="waves.png" alt="Dell 16GB" style="width:100%" style="height :100%" ><p>Micro Wave </p>
+  <img src="waves.png" alt="Dell 16GB" style="width:45%" style="height :40%" > <a href="wave.html"><p>Micro Wave </p></a>
   </div>
-<div class="column"
+<div class="column">
 
-  <img src="frit.png" alt="Dell 16GB" style="width:25%" style="height :55%" ><a href="fritpro.html"><p>Refrigirator </p></a>
+  <img src="frii.jpg" alt="Dell 16GB" style="width:60%" style="height :60%" ><a href="fritpro.html"><p>Refrigirator </p></a>
  
 
  <img src="wassher.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><a href="wassher.html"><p> Dish Washer</p></a>
@@ -211,72 +264,56 @@ text-align:right;
 </div>
 
 <div class="column">
-    <img src="water2.jpg" alt="Car vaccum clean" style="width:55%" style="height:40%"   > <a href=" dis.html"><p> water dispenser</p></a>
+    <img src="water2.jpg" alt="Car vaccum clean" style="width:45%" style="height:40%"   > <a href=" dis.html"><p> water dispenser</p></a>
   
   
-  <img src="cooker12.jpg" alt="Dell 16GB" style="width:25%" style="height :55%" > <a href="cooker.html "><p>Oven Cooker </p></a>
+  <img src="cooker12.jpg" alt="Dell 16GB" style="width:45%" style="height :40%" > <a href="cooker.html "><p>Oven Cooker </p></a>
  </div>
  <div class="column">
   
- <img src="cofee.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><p> Coffee Maker</p>
+ <img src="cofee.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><a href="cof.html"><p> Coffee Maker</p></a>
 
 
-<img src="hood.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><p> Chimney Hoods</p>
+<img src="hood.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><a href="hood.html"><p> Chimney Hoods</p></a>
 </div>
 <div class = "column">
-   <img src="cleaner3.jpg" alt="Car vaccum clean" style="width:55%" style="height:40%"   >  <a href="cleaner.html"> <p> Vacuum Cleaner</p></a>
+   <img src="cleaner3.jpg" alt="Car vaccum clean" style="width:45%" style="height:40%"   >  <a href="cleaner.html"> <p> Vacuum Cleaner</p></a>
   
   
-  <img src="mill.jpg" alt="Dell 16GB" style="width:25%" style="height :55%" > <a href= "mill.html"> <p>Treadmill</p></a>
+  <img src="mill.jpg" alt="Dell 16GB" style="width:45%" style="height :40%" > <a href= "mill.html"> <p>Treadmill</p></a>
 
 </div>
 <div class="column">
- <img src="dryer6.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" > <a href="washeer.html"><p> Washer Dryer</p></a>
+ <img src="DD.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" > <a href="ddd.html"><p> Washer Dryer</p></a>
 
 <img src="air.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:45%"style="height:40%" ><a href="washeer.html"><p>Air Conditioner</p></a>
 
 </div>
-</body>
 
-<center> <footer>  <p class="copy">East Africa Repairs Production</p>Copyright &copy; EasyRepairs.com, Inc 2020</footer>  </center>
-
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-<script type="text/javascript">
-var urlMenu=document.getElementById("menu");
- urlMenu.onchange=function(){ 
-
-var userOption=this.options[this.selectedIndex];
-if(userOption.value!="nothing"){
-window.open(userOption.value, "show All", "");
-
-}
+<hr>
+<h7><img src="SAM.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:8%"style="height:4%" ></h7>
+<h7><img src="beko.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:8%"style="height:5%" ></h7>
+<h7> <img src="whirl.jpg" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7> <img src="lgg.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7> <img src="von.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:5%"style="height:3%" ></h7>
+<h7><img src="bosch.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7><img src="amo.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:5%"style="height:3%" ></h7>
+<h7><img src="ram.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
 
 
-}
+<h7> <img src="siemens.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7> <img src="electrolux.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7> <img src="midea.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7> <img src="sanyo.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
+<h7><img src="haier.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:5%"style="height:6%" ></h7>
+<h7><img src="ge.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:5%"style="height:3%" ></h7>
+<h7><img src="panasonic.png" alt="Honywell HT-900 TurboForce Air circulator Fan" style="width:10%"style="height:6%" ></h7>
 
 
 
-
-
-
-
-
-
-</script>
+<center> <footer>  <p class="copy">Citty Appliances Production</p>Copyright &copy; CittyAppliances.com, Inc 2020</footer>  </center>
 
 </body>
+
 
 </html>
